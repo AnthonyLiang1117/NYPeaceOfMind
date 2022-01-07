@@ -13,6 +13,7 @@ import DetailsScreen from "./components/DetailsScreen";
 
       Navigator: holds all the screen components together as its children and renders all our content onto the app
         - initialRouteName specifies whichever route to initialy load in
+        - will automatically include a back button when possible to go back if there are mulitple screens in the navigation stack
 */
 const Stack = createNativeStackNavigator();
 

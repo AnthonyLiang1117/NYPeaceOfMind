@@ -1,10 +1,24 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
+import styles from "../styles";
 
-function DetailsScreen() {
+function DetailsScreen({ navigation }) {
+  const { container, button } = styles;
   return (
-    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+    <View style={container}>
       <Text>Details Screen</Text>
+      <TouchableOpacity
+        style={button}
+        onPress={() => navigation.navigate("Home")}
+      >
+        <Text>Go to home</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={button} onPress={() => navigation.goBack()}>
+        <Text>Go back</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={button} onPress={() => navigation.popToTop()}>
+        <Text>Goes back to the top of the stack</Text>
+      </TouchableOpacity>
     </View>
   );
 }
