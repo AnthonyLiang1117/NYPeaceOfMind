@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { Dimensions, StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
@@ -8,17 +8,20 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   text: {
-    backgroundColor: "whitesmoke",
+    // backgroundColor: "whitesmoke",
     color: "#4A90E2",
     fontSize: 24,
     padding: 10,
     marginBottom: 15,
   },
   button: {
-    backgroundColor: "#0048BA",
     marginBottom: 15,
     borderRadius: 5,
     padding: 15,
+  },
+  map: {
+    width: Dimensions.get("window").width,
+    height: Dimensions.get("window").height,
   },
 });
 

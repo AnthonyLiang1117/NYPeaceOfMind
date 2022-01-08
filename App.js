@@ -1,9 +1,14 @@
 import * as React from "react";
-import { TouchableOpacity, Text } from "react-native";
-import { NavigationContainer } from "@react-navigation/native";
+import { TouchableOpacity, Text, useColorScheme } from "react-native";
+import {
+  NavigationContainer,
+  DefaultTheme,
+  DarkTheme,
+} from "@react-navigation/native";
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
 import HomeScreen from "./components/HomeScreen";
 import DetailsScreen from "./components/DetailsScreen";
+import MapScreen from "./components/MapScreen";
 
 /*
   Tab:
@@ -17,7 +22,6 @@ import DetailsScreen from "./components/DetailsScreen";
         - will automatically include a back button when possible to go back if there are mulitple screens in the navigation stack
 */
 const Tab = createMaterialBottomTabNavigator();
-
 /*
   NavigationContainer:
     - manages our navigation tree and navigation state
@@ -30,8 +34,9 @@ const Tab = createMaterialBottomTabNavigator();
 */
 
 export default function App() {
+  const scheme = useColorScheme();
   return (
-    <NavigationContainer>
+    <NavigationContainer theme={DarkTheme}>
       <Tab.Navigator
         initialRouteName="Home"
         screenOptions={{
@@ -60,6 +65,11 @@ export default function App() {
           name="Details"
           component={DetailsScreen}
           option={{ title: "Details" }}
+        />
+        <Tab.Screen
+          name="Map"
+          component={MapScreen}
+          option={{ title: "Map" }}
         />
       </Tab.Navigator>
     </NavigationContainer>

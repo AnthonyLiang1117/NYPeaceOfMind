@@ -1,5 +1,6 @@
 import React from "react";
 import { TouchableOpacity, View, Text } from "react-native";
+import { useTheme } from "@react-navigation/native";
 import { StatusBar } from "expo-status-bar";
 import styles from "../styles";
 
@@ -14,14 +15,15 @@ import styles from "../styles";
 */
 function HomeScreen({ navigation }) {
   const { container, text, button } = styles;
+  const { colors } = useTheme();
   return (
     <View style={container}>
       <Text style={text}>Hello World!</Text>
       <TouchableOpacity
-        style={button}
+        style={{ ...button, backgroundColor: colors.card }}
         onPress={() => navigation.navigate("Details")}
       >
-        <Text>Display Details</Text>
+        <Text style={{ color: colors.text }}>Display Details</Text>
       </TouchableOpacity>
       <StatusBar style="auto" />
     </View>

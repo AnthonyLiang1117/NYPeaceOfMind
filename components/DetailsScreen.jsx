@@ -17,9 +17,9 @@ function DetailsScreen({ navigation }) {
       <TouchableOpacity style={button} onPress={() => navigation.goBack()}>
         <Text>Go back</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={button} onPress={() => navigation.popToTop()}>
+      {/* <TouchableOpacity style={button} onPress={() => navigation.popToTop()}>
         <Text>Goes back to the top of the stack</Text>
-      </TouchableOpacity>
+      </TouchableOpacity> */}
       <StatusBar style="auto" />
     </View>
   );
