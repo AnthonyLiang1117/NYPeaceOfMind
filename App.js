@@ -1,12 +1,13 @@
 import * as React from "react";
+import { TouchableOpacity, Text } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
 import HomeScreen from "./components/HomeScreen";
 import DetailsScreen from "./components/DetailsScreen";
 
 /*
-  Stack:
-    createNativeStackNavigator() creates an object that has 2 properties:
+  Tab:
+    createMaterialBottomTabNavigator() creates an object that has 2 properties:
       Screen: like Routes in React, giving it components to render based on what you press
         - name is the name of the Route that corresponds to the linked component
         - component uses the jsx we created to render our the view
@@ -15,7 +16,7 @@ import DetailsScreen from "./components/DetailsScreen";
         - initialRouteName specifies whichever route to initialy load in
         - will automatically include a back button when possible to go back if there are mulitple screens in the navigation stack
 */
-const Stack = createNativeStackNavigator();
+const Tab = createMaterialBottomTabNavigator();
 
 /*
   NavigationContainer:
@@ -24,40 +25,43 @@ const Stack = createNativeStackNavigator();
 */
 
 /*
-  options prop in Stack.Screen: for specifying screen-specific options
-  screenOptions prop in Stack.Nav: for common options throughout the App
+  options prop in Tab.Screen: for specifying screen-specific options
+  screenOptions prop in Tab.Navigator: for common options throughout the App
 */
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator
+      <Tab.Navigator
         initialRouteName="Home"
         screenOptions={{
-          headerStyle: { backgroundColor: "papayawhip" },
-          headerTitleStyle: { fontWeight: "bold" },
+          headerStyle: {
+            backgroundColor: "#f4511e",
+          },
+          headerTintColor: "#fff",
+          headerTitleStyle: {
+            fontWeight: "bold",
+          },
         }}
       >
-        <Stack.Screen
+        <Tab.Screen
           name="Home"
           component={HomeScreen}
           options={{
             title: "Overview",
-            headerStyle: {
-              backgroundColor: "#f4511e",
-            },
-            headerTintColor: "#fff",
-            headerTitleStyle: {
-              fontWeight: "bold",
-            },
+            headerRight: () => (
+              <TouchableOpacity onPress={() => alert("This is button")}>
+                <Text style={{ color: "#fff", fontWeight: "bold" }}>Info</Text>
+              </TouchableOpacity>
+            ),
           }}
         />
-        <Stack.Screen
+        <Tab.Screen
           name="Details"
           component={DetailsScreen}
           option={{ title: "Details" }}
         />
-      </Stack.Navigator>
+      </Tab.Navigator>
     </NavigationContainer>
   );
 }

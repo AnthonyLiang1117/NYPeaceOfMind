@@ -5,7 +5,7 @@ import styles from "../styles";
 
 /*
   Navigation:
-  - prop is passed into every Stack.Screen that is wrapped in Stack.Navigator
+  - prop is passed into every Tab.Screen that is wrapped in Tab.Navigator
   - .navigate(name of next screen we want to go to) is a built in method that moves you to specified screen
     * meant to go to routes once, if its already at that route, it will do nothing
   - .push() will allow you to trigger the same route to go deeper and deeper
