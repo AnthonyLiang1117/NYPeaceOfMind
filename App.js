@@ -6,6 +6,7 @@ import {
   DarkTheme,
 } from "@react-navigation/native";
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
+import { MaterialCommunityIcons } from "react-native-vector-icons";
 import HomeScreen from "./components/HomeScreen";
 import DetailsScreen from "./components/DetailsScreen";
 import MapScreen from "./components/MapScreen";
@@ -39,37 +40,75 @@ export default function App() {
     <NavigationContainer theme={DarkTheme}>
       <Tab.Navigator
         initialRouteName="Home"
-        screenOptions={{
-          headerStyle: {
-            backgroundColor: "#f4511e",
-          },
-          headerTintColor: "#fff",
-          headerTitleStyle: {
-            fontWeight: "bold",
-          },
-        }}
+        activeColor="#f0edf6"
+        inactiveColor="#3e2465"
+        barStyle={{ backgroundColor: "#694fad" }}
+        // screenOptions={{
+        //   headerStyle: {
+        //     backgroundColor: "#f4511e",
+        //   },
+        //   headerTintColor: "#fff",
+        //   headerTitleStyle: {
+        //     fontWeight: "bold",
+        //   },
+        // }}
       >
         <Tab.Screen
           name="Home"
           component={HomeScreen}
           options={{
-            title: "Overview",
-            headerRight: () => (
-              <TouchableOpacity onPress={() => alert("This is button")}>
-                <Text style={{ color: "#fff", fontWeight: "bold" }}>Info</Text>
-              </TouchableOpacity>
+            tabBarLabel: "Home",
+            tabBarIcon: ({ color }) => (
+              <MaterialCommunityIcons
+                name="home-outline"
+                color={color}
+                size={26}
+              />
             ),
+            // headerRight: () => (
+            //   <TouchableOpacity onPress={() => alert("This is button")}>
+            //     <Text style={{ color: "#fff", fontWeight: "bold" }}>Info</Text>
+            //   </TouchableOpacity>
+            // ),
           }}
         />
         <Tab.Screen
           name="Details"
           component={DetailsScreen}
-          option={{ title: "Details" }}
+          options={{
+            tabBarLabel: "Favorites",
+            tabBarIcon: ({ color }) => (
+              <MaterialCommunityIcons
+                name="star-outline"
+                color={color}
+                size={26}
+              />
+            ),
+            // headerRight: () => (
+            //   <TouchableOpacity onPress={() => alert("This is button")}>
+            //     <Text style={{ color: "#fff", fontWeight: "bold" }}>Info</Text>
+            //   </TouchableOpacity>
+            // ),
+          }}
         />
         <Tab.Screen
           name="Map"
           component={MapScreen}
-          option={{ title: "Map" }}
+          options={{
+            tabBarLabel: "Map",
+            tabBarIcon: ({ color }) => (
+              <MaterialCommunityIcons
+                name="map-marker-radius-outline"
+                color={color}
+                size={26}
+              />
+            ),
+            // headerRight: () => (
+            //   <TouchableOpacity onPress={() => alert("This is button")}>
+            //     <Text style={{ color: "#fff", fontWeight: "bold" }}>Info</Text>
+            //   </TouchableOpacity>
+            // ),
+          }}
         />
       </Tab.Navigator>
     </NavigationContainer>
