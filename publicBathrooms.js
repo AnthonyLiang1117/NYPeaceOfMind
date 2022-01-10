@@ -33,14 +33,14 @@ const bathroomData = [
     location: "East 156 Street, Tinton Avenue",
     open_year_round: "No",
     borough: "Bronx",
-    latling: { latitude: 40.816934939811105, longitude: -73.9047017622677 },
+    latlng: { latitude: 40.816934939811105, longitude: -73.9047017622677 },
   },
   {
     name: "Agnes Haywood Playground",
     location: "East 215 Street, Barnes Avenue, East 216 Street",
     open_year_round: "Yes",
     borough: "Bronx",
-    latling: { latitude: 40.88048113174234, longitude: -73.8617504194979 },
+    latlng: { latitude: 40.88048113174234, longitude: -73.8617504194979 },
   },
   {
     name: "Albemarle Park",
@@ -56,28 +56,28 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Brooklyn",
-    latling: { latitude: 40.69027778877615, longitude: -73.97075287869595 },
+    latlng: { latitude: 40.69027778877615, longitude: -73.97075287869595 },
   },
   {
     name: "Alexander Hamilton Playground",
     location: "Hamilton Place, West 140 to West 141 streets",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latling: { latitude: 40.8230812953085, longitude: -73.95138274356307 },
+    latlng: { latitude: 40.8230812953085, longitude: -73.95138274356307 },
   },
   {
     name: "Alfred E. Smith Park",
     location: "Catherine Slip, Madison & South streets",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latling: { latitude: 40.7110186377794, longitude: -73.99710764889487 },
+    latlng: { latitude: 40.7110186377794, longitude: -73.99710764889487 },
   },
   {
     name: "Alice Kornegay Triangle",
     location: "Lexington Avenue, East 128 & East 129 streets",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latling: { latitude: 40.80647982969796, longitude: -73.93533659045528 },
+    latlng: { latitude: 40.80647982969796, longitude: -73.93533659045528 },
   },
   {
     name: "Allerton Playground",
@@ -85,14 +85,14 @@ const bathroomData = [
       "Anrow Avenue, Bouck Avenue, Throop Avenue, Streetedman Place, Allerton Avenue",
     open_year_round: "Yes",
     borough: "Bronx",
-    latling: { latitude: 40.86567014122839, longitude: -73.85055207812506 },
+    latlng: { latitude: 40.86567014122839, longitude: -73.85055207812506 },
   },
   {
     name: "Alley Park (PS 213)",
     location: "67 Avenue & 230 Street",
     open_year_round: "Yes",
     borough: "Queens",
-    latling: { latitude: 40.746995472974774, longitude: -73.74561655801415 },
+    latlng: { latitude: 40.746995472974774, longitude: -73.74561655801415 },
   },
   {
     name: "Alley Pond Park",
@@ -197,13 +197,6 @@ const bathroomData = [
     open_year_round: "Yes",
     borough: "Manhattan",
     latlng: { latitude: 40.73663558537932, longitude: -73.97536849527503 },
-  },
-  {
-    name: "Asser Levy Park",
-    location: "Boardwalk, Surf, Sea Breeze avenues, Ocean Parkway",
-    open_year_round: "Yes",
-    borough: "Brooklyn",
-    latlng: {},
   },
   {
     name: "Asser Levy Park (Performance Space)",
@@ -447,7 +440,7 @@ const bathroomData = [
     location: "Richmond Pkwy, Bloomingdale Rd., Lenevar Ave",
     handicap_accessible: "Yes",
     borough: "Staten Island",
-    latitude: { latitude: 40.53504740903252, longitude: -74.20848192081085 },
+    latlng: { latitude: 40.53504740903252, longitude: -74.20848192081085 },
   },
   {
     name: "Bloomingdale Playground",
@@ -2777,21 +2770,21 @@ const bathroomData = [
     location: "Merrick & Baisley boulevards",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng: {latitude: 40.684631112385944, longitude: -73.7702493115455}
+    latlng: { latitude: 40.684631112385944, longitude: -73.7702493115455 },
   },
   {
     name: "Nelson Playground",
     location: "West 166 Street, Nelson Avenue, Woodycrest Avenue",
     open_year_round: "Yes",
     borough: "Bronx",
-    latlng: {latitude: 40.83502972688887, longitude: -73.92662105124714}
+    latlng: { latitude: 40.83502972688887, longitude: -73.92662105124714 },
   },
   {
     name: "Newport Playground",
     location: "Newport Avenue & Osborn Street",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.66087190712397, longitude: -73.9071127773293}
+    latlng: { latitude: 40.66087190712397, longitude: -73.9071127773293 },
   },
   {
     name: "Noble Playground",
@@ -2799,49 +2792,49 @@ const bathroomData = [
       "Nobel Avenue, Bronx River Avenue, Bronx River Parkway, Cross Bronx Expressway",
     open_year_round: "No",
     borough: "Bronx",
-    latlng: {latitude: 40.83688383928344, longitude: -73.87184254978476}
+    latlng: { latitude: 40.83688383928344, longitude: -73.87184254978476 },
   },
   {
     name: "Noonan Playground",
     location: "Greenpoint & 47 avenues, 43 Street",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng: {latitude: 40.74109048800784, longitude: -73.92240730854948}
+    latlng: { latitude: 40.74109048800784, longitude: -73.92240730854948 },
   },
   {
     name: "North Rochdale Playground (PS 30)",
     location: "Baisley Boulevard & Bedell Street",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng: {latitude: 40.68002161827858, longitude: -73.77500608859505}
+    latlng: { latitude: 40.68002161827858, longitude: -73.77500608859505 },
   },
   {
     name: "Nostrand Playground",
     location: "Nostrand & Foster avenues",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.63839377089119, longitude: -73.94744323962102}
+    latlng: { latitude: 40.63839377089119, longitude: -73.94744323962102 },
   },
   {
     name: "Ocean Hill Playground",
     location: "Bergen Street, Rockaway Avenue, Dean Street",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.674536734225185, longitude: -73.91207257627012}
+    latlng: { latitude: 40.674536734225185, longitude: -73.91207257627012 },
   },
   {
     name: "Old Town Playground",
     location: "Parkinson Avenue, Kramer Street",
     open_year_round: "Yes",
     borough: "Staten Island",
-    latlng: {latitude: 40.595511845145616, longitude: -74.08149910908385}
+    latlng: { latitude: 40.595511845145616, longitude: -74.08149910908385 },
   },
   {
     name: "Oracle Playground",
     location: "Adelphi & Myrtle avenues",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.693920331379566, longitude: -73.97152689992214}
+    latlng: { latitude: 40.693920331379566, longitude: -73.97152689992214 },
   },
   {
     name: "Orchard Beach Pavilion",
@@ -2849,63 +2842,63 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Bronx",
-    latlng: {latitude: 40.86723328380283, longitude: -73.79406851146895}
+    latlng: { latitude: 40.86723328380283, longitude: -73.79406851146895 },
   },
   {
     name: "Wright Brothers Playground",
     location: "West 156 Street & St. Nicholas Avenue",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng: {latitude: 40.83170003575815, longitude: -73.94163525575206}
+    latlng: { latitude: 40.83170003575815, longitude: -73.94163525575206 },
   },
   {
     name: "Osborn Playground",
     location: "Linden Boulevard & Osborn Street",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.655989310549955, longitude: -73.90593708946062}
+    latlng: { latitude: 40.655989310549955, longitude: -73.90593708946062 },
   },
   {
     name: "Owen Dolen Recreation Center",
     location: "Westchester Avenue, Lane Avenue, East Tremont Avenue",
     open_year_round: "Yes",
     borough: "Bronx",
-    latlng: {latitude: 40.84063337718093, longitude: -73.84238955622108}
+    latlng: { latitude: 40.84063337718093, longitude: -73.84238955622108 },
   },
   {
     name: "P.O. Nicholas Demutis Playground",
     location: "102 Street & Liberty Avenue",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng: {latitude: 40.68186211091612, longitude: -73.83965238827517}
+    latlng: { latitude: 40.68186211091612, longitude: -73.83965238827517 },
   },
   {
     name: "P.O. Serrano Playground",
     location: "Turnbull Avenue, Olmstead Avenue, Lafayette Avenue",
     open_year_round: "Yes",
     borough: "Bronx",
-    latlng: {latitude: 40.82348147677298, longitude: -73.85056640688397}
+    latlng: { latitude: 40.82348147677298, longitude: -73.85056640688397 },
   },
   {
     name: "Paerdegat Park",
     location: "Foster Avenue, East 40-41 streets",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.63805009993653, longitude: -73.9381440524279}
+    latlng: { latitude: 40.63805009993653, longitude: -73.9381440524279 },
   },
   {
     name: "Painters Playground (PS 174)",
     location: "Alderton Street from Dieterle to Elwell Crescents",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng: {latitude: 40.72045894466455, longitude: -73.86006541947171}
+    latlng: { latitude: 40.72045894466455, longitude: -73.86006541947171 },
   },
   {
     name: "Park Slope Playground",
     location: "Berkeley Street & Lincoln Place",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.6770061569587, longitude: -73.97855417492703}
+    latlng: { latitude: 40.6770061569587, longitude: -73.97855417492703 },
   },
   {
     name: "Parkside Playground",
@@ -2913,7 +2906,7 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Bronx",
-    latlng: {latitude: 40.86845467242587, longitude: -73.8679936597165}
+    latlng: { latitude: 40.86845467242587, longitude: -73.8679936597165 },
   },
   {
     name: "Pat Perlato Playground",
@@ -2921,21 +2914,21 @@ const bathroomData = [
     open_year_round: "Yes",
     borough: "Brooklyn",
     comments: "This facility is currently closed. ",
-    latlng: {latitude: 40.57704986691848, longitude: -73.94623231340415}
+    latlng: { latitude: 40.57704986691848, longitude: -73.94623231340415 },
   },
   {
     name: "Paul W. Kolbert Park/Rachel Haber Cohen Playground",
     location: "Avenue L, East 17 to East 18 streets",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.62033652675021, longitude: -73.95803906938}
+    latlng: { latitude: 40.62033652675021, longitude: -73.95803906938 },
   },
   {
     name: "Pelham Bay Park (Bruckner CS)",
     location: "Bruckner Boulevard, Eastchester Bay, Hutchinson",
     open_year_round: "Yes",
     borough: "Bronx",
-    latlng: {latitude: 40.8667405219712, longitude: -73.81012825875564}
+    latlng: { latitude: 40.8667405219712, longitude: -73.81012825875564 },
   },
   {
     name: "Pelham Bay Park (Hunter Island Picnic Area)",
@@ -2943,7 +2936,7 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Bronx",
-    latlng: {latitude: 40.876134425331536, longitude: -73.79014947968695}
+    latlng: { latitude: 40.876134425331536, longitude: -73.79014947968695 },
   },
   {
     name: "Pelham Bay Park (Playground for All Children)",
@@ -2951,126 +2944,126 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Bronx",
-    latlng: {latitude: 40.848439007427096, longitude: -73.82529296675501}
+    latlng: { latitude: 40.848439007427096, longitude: -73.82529296675501 },
   },
   {
     name: "People's Park Playground",
     location: "Brook Avenue, East 141 Street",
     open_year_round: "Yes",
     borough: "Bronx",
-    latlng: {latitude: 40.809531852944495, longitude: -73.91703956513335}
+    latlng: { latitude: 40.809531852944495, longitude: -73.91703956513335 },
   },
   {
     name: "Peter's Field",
     location: "183 Place & Henderson Avenue",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng: {latitude: 40.706410574211226, longitude: -73.77467810301185}
+    latlng: { latitude: 40.706410574211226, longitude: -73.77467810301185 },
   },
   {
     name: "PFC Thomas Norton Memorial Playground",
     location: "Nostrand Avenue & Marine Parkway",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.61456301893696, longitude: -73.94481899437181}
+    latlng: { latitude: 40.61456301893696, longitude: -73.94481899437181 },
   },
   {
     name: "Pierrepont Playground",
     location: "Furman Street, Pierrepont Place",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.69623322480769, longitude: -73.99747435993896}
+    latlng: { latitude: 40.69623322480769, longitude: -73.99747435993896 },
   },
   {
     name: "Pink Playground",
     location: "Stanley Avenue & Eldert Lane",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.6665192634476, longitude: -73.86255915159961}
+    latlng: { latitude: 40.6665192634476, longitude: -73.86255915159961 },
   },
   {
     name: "Playground 62 (PS 220)",
     location: "Yellowstone Boulevard between 62 Avenue & 62 Road",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng: {latitude: 40.736090815825655, longitude: -73.85278484586404}
+    latlng: { latitude: 40.736090815825655, longitude: -73.85278484586404 },
   },
   {
     name: "Playground 90/PS 148 Playground",
     location: "Northern Boulevard & 90 Street",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng: {latitude: 40.75746695393813, longitude: -73.87862942143947}
+    latlng: { latitude: 40.75746695393813, longitude: -73.87862942143947 },
   },
   {
     name: "Playground Fifty-Two",
     location: "Kelly Street, St. John's Avenue, Beck Street",
     open_year_round: "Yes",
     borough: "Bronx",
-    latlng: {latitude: 40.814862473886386, longitude: -73.90165413453478}
+    latlng: { latitude: 40.814862473886386, longitude: -73.90165413453478 },
   },
   {
     name: "Marx Brothers Playground",
     location: "2 Avenue, East 96 to East 97 streets",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng: {latitude: 40.784499375926416, longitude: -73.946628606591}
+    latlng: { latitude: 40.784499375926416, longitude: -73.946628606591 },
   },
   {
     name: "Playground Seventy-Five (PS 154)",
     location: "160 Street & 75 Avenue",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng: {latitude: 40.726374406130084, longitude: -73.80839598526688}
+    latlng: { latitude: 40.726374406130084, longitude: -73.80839598526688 },
   },
   {
     name: "Police Officer Reinaldo Salgado Playground",
     location: "Madison Street & Patchen Avenue",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.68784180142253, longitude: -73.92595691143967}
+    latlng: { latitude: 40.68784180142253, longitude: -73.92595691143967 },
   },
   {
     name: "Poor Richard's Playground",
     location: "East 109 Street between 2 & 3 avenues",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng: {latitude: 40.792983992556024, longitude: -73.94308916390017}
+    latlng: { latitude: 40.792983992556024, longitude: -73.94308916390017 },
   },
   {
     name: "Potomac Playground",
     location: "Tompkins Avenue & Halsey Street",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.68204951418514, longitude: -73.94430040652966}
+    latlng: { latitude: 40.68204951418514, longitude: -73.94430040652966 },
   },
   {
     name: "Pratt Playground",
     location: "Willoughby Avenue, Emerson Place",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.692612395335146, longitude: -73.96253165448405}
+    latlng: { latitude: 40.692612395335146, longitude: -73.96253165448405 },
   },
   {
     name: "Prescott Playground",
     location: "Hylan Boulevard & Huguenot Avenue",
     open_year_round: "Yes",
     borough: "Staten Island",
-    latlng: {latitude: 40.522470813213864, longitude: -74.18580992539299}
+    latlng: { latitude: 40.522470813213864, longitude: -74.18580992539299 },
   },
   {
     name: "Prospect Park (East Parade Grounds)",
     location: "Argyle Road/Parade Place./Parkside Avenue/Caton Avenue",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.65080788791581, longitude: -73.96818773467194}
+    latlng: { latitude: 40.65080788791581, longitude: -73.96818773467194 },
   },
   {
     name: "Prospect Park (Litchfield Villa)",
     location: "Prospect Park West/3rd Street/7th Street",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.66700296314027, longitude: -73.97382786186716}
+    latlng: { latitude: 40.66700296314027, longitude: -73.97382786186716 },
   },
   {
     name: "Prospect Park (Middle Long Meadow)",
@@ -3078,7 +3071,7 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.66556029496567, longitude: -73.97156208571774}
+    latlng: { latitude: 40.66556029496567, longitude: -73.97156208571774 },
   },
   {
     name: "Prospect Park (The Bandshell)",
@@ -3086,41 +3079,34 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: }
-  },
-  {
-    name: "Prospect Park (West Parade Grounds)",
-    location: "Coney Island Avenue/Arglye Road/Parkside Avenue/Caton Avenue",
-    open_year_round: "Yes",
-    borough: "Brooklyn",
-    latlng: {latitude: 40.6633049084655, longitude: -73.97679478142541}
+    latlng: { latitude: 40.66330219547808, longitude: -73.97679767796586 },
   },
   {
     name: "Prospect Park (Willink Hill)",
     location: "Lincoln Road/Ocean Avenue/Willink Entrance/East Lake Drive",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.660463762617766, longitude: -73.96360122544294}
+    latlng: { latitude: 40.660463762617766, longitude: -73.96360122544294 },
   },
   {
     name: "Prospect Park (Wollman Rink & Flower Garden)",
     location: "Prospect Lake/East Lake Drive/south of Breeze Hill/Parking Lot",
     borough: "Brooklyn",
-    latlng: {latitude: 40.66288731011195, longitude: -73.9634784177287}
+    latlng: { latitude: 40.66288731011195, longitude: -73.9634784177287 },
   },
   {
     name: "Pena Herrera Park Playground",
     location: "46 & 47 streets, 3 Avenue",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.649399140877485, longitude: -74.01214355860148}
+    latlng: { latitude: 40.649399140877485, longitude: -74.01214355860148 },
   },
   {
     name: "PS 155 Playground",
     location: "East 117 to East 118 streets, 1 to 2 avenues",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng: {latitude: 40.79751669960298, longitude: -73.93535640823643}
+    latlng: { latitude: 40.79751669960298, longitude: -73.93535640823643 },
   },
   {
     name: "PS 286 Playground",
@@ -3128,14 +3114,14 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.591098647774444, longitude: -73.93845521793193}
+    latlng: { latitude: 40.591098647774444, longitude: -73.93845521793193 },
   },
   {
     name: "PS 59 Sumner Playground",
     location: "Throop, Park, Mytrle avenues",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng: {latitude: 40.697146142082225, longitude: -73.94286577380407}
+    latlng: { latitude: 40.697146142082225, longitude: -73.94286577380407 },
   },
   {
     name: "Quarry Ballfields",
@@ -3143,7 +3129,7 @@ const bathroomData = [
     open_year_round: "No",
     handicap_accessible: "Yes",
     borough: "Bronx",
-    latlng:{latitude: }
+    latlng: { latitude: 40.85022483455645, longitude: -73.89002177310203 },
   },
   {
     name: "Queens Farm Museum",
@@ -3151,14 +3137,14 @@ const bathroomData = [
       "Little Neck Parkway, Commonwealth Boulevard, south of Grand Central Parkway",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.747642727022516, longitude: -73.72171824498405 },
   },
   {
     name: "Queensbridge Park",
     location: "21 Street, Bridge Plaza, Vernon Boulevard, East River",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.755131063919656, longitude: -73.94953661749047 },
   },
   {
     name: "Railroad Playground",
@@ -3166,36 +3152,36 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.64926410628992, longitude: -73.9140576228477 },
   },
   {
-    name: "Rainey Park",
+    name: "Bill Rainey Park",
     location:
       "Dawson Street, Beck Street, Kelly Street, Intervale Avenue, Longwood Avenue",
     open_year_round: "No",
     borough: "Bronx",
-    latlng:{latitude: }
+    latlng: { latitude: 40.81879234742414, longitude: -73.89835905048295 },
   },
   {
     name: "Rainey Park",
     location: "Vernon Boulevard, 33 Road, 34 Street, East River",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.765370356201586, longitude: -73.94102925666424 },
   },
   {
     name: "Randall Playground",
     location: "Randall Avenue, Castle Hill Avenue",
     open_year_round: "No",
     borough: "Bronx",
-    latlng:{latitude: }
+    latlng: { latitude: 40.81928705938397, longitude: -73.84971166336547 },
   },
   {
     name: "Rappaport Playground",
     location: "52-53 streets, Fort Hamilton Parkway",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.63679466128343, longitude: -74.00078155714002 },
   },
   {
     name: "Real Good Park (Lie Playground)",
@@ -3203,57 +3189,42 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.735371118584006, longitude: -73.85766832174417 },
   },
   {
     name: "Red Hook Park",
     location: "Otsego, Bay, Hicks, Lorraine, Court, Halleck streets",
     open_year_round: "No",
     borough: "Brooklyn",
-    latlng:{latitude: }
-  },
-  {
-    name: "Red Hook Park",
-    location:
-      'Columbia and Bay streets, southeast of "Halleck Street" Sidewalk and northeast of "Henry Street" Sidewalk',
-    open_year_round: "Yes",
-    borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.67275817064167, longitude: -74.00780925133098 },
   },
   {
     name: "Red Hook Park (Coffey Park Playground)",
     location: "King, Richards, & Dwight Streets",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.677231481801954, longitude: -74.00866617617746 },
   },
   {
     name: "Red Hook Park (Recreation Center)",
     location: "Otsego, Bay, Hicks, Lorraine, Court, Halleck streets",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.67235650208922, longitude: -74.00410004898791 },
   },
   {
     name: "Reiff Playground",
     location: "Fresh Pond Road, 63 Street, 59 Drive",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.71843507376091, longitude: -73.90214106418331 },
   },
   {
     name: "Renaissance Playground",
     location: "West 144 Street, between 7 & 8 avenues",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
-  },
-  {
-    name: "Rev. Polite Playground",
-    location: "Rev. James Polite Avenue, Intervale Avenue, East 167 Street",
-    open_year_round: "Yes",
-    borough: "Bronx",
-    latlng:{latitude: }
+    latlng: { latitude: 40.82166158289403, longitude: -73.94165723671189 },
   },
   {
     name: "Richman (Echo) Park Playground",
@@ -3261,14 +3232,14 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Bronx",
-    latlng:{latitude: }
+    latlng: { latitude: 40.849459269181004, longitude: -73.90162688389502 },
   },
   {
     name: "Rienzi Playground",
     location: "East 226 Street, Barnes Avenue, East 225 Street",
     open_year_round: "Yes",
     borough: "Bronx",
-    latlng:{latitude: }
+    latlng: { latitude: 40.88763088286605, longitude: -73.85876253488809 },
   },
   {
     name: "Riverbend Playground",
@@ -3276,7 +3247,7 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Bronx",
-    latlng:{latitude: }
+    latlng: { latitude: 40.87185991849399, longitude: -73.90595972268282 },
   },
   {
     name: "Riverside Park (Boat Basin)",
@@ -3284,7 +3255,7 @@ const bathroomData = [
       "Riverside Drive to Hudson River, West 59th Street to Clair Place",
     open_year_round: "No",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.7857386790284, longitude: -73.98449997451802 },
   },
   {
     name: "Riverside Park (Café)",
@@ -3292,14 +3263,14 @@ const bathroomData = [
     open_year_round: "No",
     handicap_accessible: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.802601775780836, longitude: -73.97192897679886 },
   },
   {
     name: "Riverside Park (Claremont)",
     location: "West 124 Street & Riverside Drive",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.81490993914091, longitude: -73.96223322147114 },
   },
   {
     name: "Riverside Park (Classic Playground)",
@@ -3307,91 +3278,91 @@ const bathroomData = [
       "72nd to 79th streets between Hudson River and Henry Hudson Parkway",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.783276606705854, longitude: -73.98677562709491 },
   },
   {
     name: "Riverside Park (Dinosaur Playground)",
     location: "West 97 Street & Riverside Drive",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.796944206290604, longitude: -73.97500012831958 },
   },
   {
     name: "Riverside Park (Hippo Playground)",
     location: "West 91 Street & Riverside Drive",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.79313512598919, longitude: -73.97801497065313 },
   },
   {
     name: "Riverside Park (Neufeld Playground)",
     location: "West 76 Street & Riverside Drive",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.78344644677154, longitude: -73.98479638069249 },
   },
   {
     name: "Riverside Park (River Run Playground)",
     location: "West 83 Street & Riverside Drive",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.78731617805733, longitude: -73.9820986511727 },
   },
   {
     name: "Riverside Park (Riverbank Playground)",
     location: "West 142 Street & Riverside Drive",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.82590344592424, longitude: -73.9576919985359 },
   },
   {
     name: "Riverside Park (Ten Mile River Playground)",
     location: "West 148 Street & Hudson River",
     open_year_round: "No",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.82986143601987, longitude: -73.95264529186954 },
   },
   {
     name: "Riverside Park (Tennis Courts)",
     location: "Riverside Drive & West 96th Street",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.79749258172685, longitude: -73.97670016412832 },
   },
   {
     name: "Robert Moses Playground",
     location: "1 Avenue, East 41 to East 42 streets",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.74810354079774, longitude: -73.96868972978382 },
   },
   {
     name: "Rochdale Park",
     location: "Guy Brewer Boulevard, 134 Avenue",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.67445956811781, longitude: -73.77411409254479 },
   },
   {
     name: "Rockaway Beach",
     location: "Between 87th Street and 100th Street",
     open_year_round: "No",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.58367822702635, longitude: -73.81460056105175 },
   },
   {
     name: "Rockaway Beach",
     location: "Between 100th Street and 110th Street",
     open_year_round: "No",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.58052224538376, longitude: -73.82612756154943 },
   },
   {
     name: "Rockaway Beach & Boardwalk (Beach 59th Street Playground)",
     location: "Boardwalk & Beach 59-60 streets",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.588880263453504, longitude: -73.78907820114105 },
   },
   {
     name: "Rockaway Beach (Beach 116Th)",
@@ -3399,118 +3370,105 @@ const bathroomData = [
     open_year_round: "Yes",
     borough: "Queens",
     comments: "This facility is currently closed",
-    latlng:{latitude: }
-  },
-  {
-    name: "Rockaway Beach 106 Comfort Station",
-    location: "Beach 106 Street",
-    handicap_accessible: "Yes",
-    borough: "Queens",
+    latlng: { latitude: 40.57814962435174, longitude: -73.83531407083078 },
   },
   {
     name: "Rockaway Beach 117th L/G",
     location: "Beach 117 Street",
     handicap_accessible: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.577460616068585, longitude: -73.83695255791214 },
   },
   {
     name: "Rockaway Beach 86 Comfort Station",
     location: "Beach 86 Street",
     handicap_accessible: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.58495594827728, longitude: -73.80988730621374 },
   },
   {
     name: "Rockaway Beach 97 Comfort Station",
     location: "Beach 97 Street",
     handicap_accessible: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.58291071232181, longitude: -73.81764745814594 },
   },
   {
     name: "Rodney Playground South",
     location: "Rodney, South 3 & South 4 streets",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.710202192287376, longitude: -73.95554542306547 },
   },
   {
     name: "Roebling Playground",
     location: "Wilson & Lee avenues, Taylor Street",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.70649059946919, longitude: -73.96151623638478 },
   },
   {
     name: "Roger Morris Park (Morris Jumel Mansion)",
     location: "Jumel Terrace to Edgecombe Avenue, West 160 to West 162 streets",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.83445562194417, longitude: -73.93857865828329 },
   },
   {
     name: "Rolf Henry Playground",
     location: "New York & Clarkson avenues",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.65570073933733, longitude: -73.94749970369449 },
   },
   {
     name: "Rose Hill Park",
     location: "Webster Avenue, Harlem River, East Fordham Road",
     open_year_round: "Yes",
     borough: "Bronx",
-    latlng:{latitude: }
+    latlng: { latitude: 40.861772535442746, longitude: -73.89076066457065 },
   },
   {
     name: "Rosemary's Playground (JHS 93)",
     location: "Woodward Avenue, Woodbine Street, Fairview Avenue",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.70462531665809, longitude: -73.90442549443472 },
   },
   {
     name: "Roy Wilkins Recreation Center",
     location: "Northwest of fence running from 118th Road to hospital",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
-  },
-  {
-    name: "Roy Wilkins Recreation Center",
-    location: "Southeast of fence running from 118th Road to hospital",
-    open_year_round: "Yes",
-    borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.687040079109494, longitude: -73.7694262139461 },
   },
   {
     name: "Rudd Playground",
     location: "Aberdeen Street & Bushwick Avenue",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.70463057600359, longitude: -73.90439576999182 },
   },
   {
     name: "Rufus King Park",
     location: "Jamaica Avenue, 153 Street, 89 Avenue, 150 Street",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.70330637087976, longitude: -73.80339487673714 },
   },
   {
     name: "Russell Pederson Playground",
     location: "Colonial Road, 83 to 85 streets",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.62661822205705, longitude: -74.03592869527965 },
   },
   {
     name: "Russell Sage Playground (JHS 190)",
     location: "68 Avenue, Booth to Austin streets",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.72394534401731, longitude: -73.85162571866009 },
   },
   {
     name: "Sara D. Roosevelt Park",
@@ -3518,140 +3476,133 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.7187985574755, longitude: -73.99300602502541 },
   },
   {
     name: "Saratoga Square Park",
     location: "Howard Avenue, Halsey, Macon streets",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.68502953957599, longitude: -73.91904032619995 },
   },
   {
     name: "Schmul Park",
     location: "Wild Avenue, Pearson Street",
     open_year_round: "Yes",
     borough: "Staten Island",
-    latlng:{latitude: }
+    latlng: { latitude: 40.590113322650005, longitude: -74.18787870654887 },
   },
   {
     name: "Seaside Playground (PS 225)",
     location: "Rockaway Beach Boulevard, B109-B110 streets",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.58073332696847, longitude: -73.83055762962863 },
   },
   {
     name: "Seth Low Playground",
     location: "Avenue P, Bay Parkway, West 12 Street",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.60825731030318, longitude: -73.98657229462175 },
   },
   {
     name: "Seton Park",
     location: "West 135 Street, Independence Avenue, West 232 Street",
     open_year_round: "Yes",
     borough: "Bronx",
-    latlng:{latitude: }
+    latlng: { latitude: 40.88615647541185, longitude: -73.91705241978093 },
   },
   {
-    name: "Seton Park Playground",
+    name: "Spuyten Duyvil Playground",
     location: "West 235 Street & Douglas Avenue",
     open_year_round: "No",
     borough: "Bronx",
-    latlng:{latitude: }
-  },
-  {
-    name: "Sheltering Arms Park",
-    location: "West 129 Street, Amsterdam Avenue",
-    open_year_round: "Yes",
-    borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.887160789992016, longitude: -73.91627078798167 },
   },
   {
     name: "Sheltering Arms Park (Pool)",
     location: "West 129 Street, Amsterdam Avenue",
     open_year_round: "No",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.815370633781974, longitude: -73.95621621509791 },
   },
   {
     name: "Shore Road Park",
     location: "Owl's Head Park to Fort Hamilton Parkway Narrows Avenue",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.639371192005555, longitude: -74.0320055580175 },
   },
   {
     name: "Shore Road Park",
     location: "72nd Street to Harbor View",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.63206269036617, longitude: -74.03876283371534 },
   },
   {
     name: "Shore Road Park",
     location: "92nd Street to 4 Avenue - lower half, by expressway",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.61623538228167, longitude: -74.03928751327729 },
   },
   {
     name: "Shore Road Park",
     location: "92nd Street to 4 Avenue - upper half, by road",
     open_year_round: "No",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.61202515427162, longitude: -74.03569149175942 },
   },
   {
     name: "Silver Lake Park",
     location: "Victory Boulevard, Clove Road, Forest Avenue",
     open_year_round: "Yes",
     borough: "Staten Island",
-    latlng:{latitude: }
+    latlng: { latitude: 40.62835566221571, longitude: -74.0990583785868 },
   },
   {
     name: "Slattery Playground",
     location: "East 183 Street, Ryer Avenue, Valentine Avenue",
     open_year_round: "Yes",
     borough: "Bronx",
-    latlng:{latitude: }
+    latlng: { latitude: 40.85735948147839, longitude: -73.89841897007783 },
   },
   {
     name: "Slope Park",
     location: "6 Avenue Bet 18 & 19 Sts",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.661302191382674, longitude: -73.98936184378378 },
   },
   {
     name: "Smokey Oval",
     location: "125 Street & Atlantic Avenue",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.69467113577161, longitude: -73.82156507330001 },
   },
   {
     name: "Sol Bloom Playground",
     location: "Columbus Avenue, West 91 to West 92 streets, Central Park West",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.78983787175749, longitude: -73.9687690616722 },
   },
   {
     name: "Sol Lain Playground",
     location: "Broadway, Henry Street, Samuel Dickstein Place",
     open_year_round: "No",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.71441035775565, longitude: -73.98398520399581 },
   },
   {
     name: "Soundview Park Playground",
     location: "Metcalf Avenue between Seward and Randall avenues",
     open_year_round: "No",
     borough: "Bronx",
-    latlng:{latitude: }
+    latlng: { latitude: 40.817953681519796, longitude: -73.87035820463801 },
   },
   {
     name: "South Beach",
@@ -3660,7 +3611,7 @@ const bathroomData = [
     open_year_round: "Yes",
     borough: "Staten Island",
     comments: "This facility is currently closed",
-    latlng:{latitude: }
+    latlng: { latitude: 40.59228410303984, longitude: -74.06336931970274 },
   },
   {
     name: "South Beach (Saturn Playground)",
@@ -3670,14 +3621,7 @@ const bathroomData = [
     handicap_accessible: "Yes",
     borough: "Staten Island",
     comments: "This facility is currently closed",
-    latlng:{latitude: }
-  },
-  {
-    name: "South Beach Wetlands",
-    location: "Quintard St Bet. Quincy Ave & Father Capodanno Blvd",
-    handicap_accessible: "Yes",
-    borough: "Staten Island",
-    latlng:{latitude: }
+    latlng: { latitude: 40.579631101144706, longitude: -74.0760386154432 },
   },
   {
     name: "Space Time Playground",
@@ -3685,49 +3629,49 @@ const bathroomData = [
       "Streetory Avenue, Bolton Avenue, Lafayette Avenue, Underhill Avenue",
     open_year_round: "No",
     borough: "Bronx",
-    latlng:{latitude: }
+    latlng: { latitude: 40.82212129977122, longitude: -73.85995495907015 },
   },
   {
     name: "Sperandeo Brothers Playground",
     location: "Atlantic Avenue & Elton Street",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.677082920488154, longitude: -73.8846660527851 },
   },
   {
     name: "Springfield Park",
     location: "149 Avenue, Springfield Boulevard, 145 Road, 148 Street",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.66308826796849, longitude: -73.76129150738865 },
   },
   {
     name: "St Nicholas Park South",
     location: "West 129 & 7 Avenue",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.81373078187418, longitude: -73.950942534193 },
   },
   {
     name: "St. Albans Park (174 Street Playground)",
     location: "174 Street & 113 Avenue",
     open_year_round: "Yes",
     borough: "Queens",
-    latlng:{latitude: }
+    latlng: { latitude: 40.693383535855254, longitude: -73.77815096974452 },
   },
   {
     name: "St. Andrew's Playground",
     location: "Atlantic Avenue & Herkimer Street",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.67881465726611, longitude: -73.94202890366935 },
   },
   {
     name: "St. Catherine's Park",
     location: "East 67-68 streets, 1 Avenue",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.76532526270682, longitude: -73.9585416411575 },
   },
   {
     name: "St. Mary's Park (Recreation Center)",
@@ -3735,14 +3679,14 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Bronx",
-    latlng:{latitude: }
+    latlng: { latitude: 40.81151071667454, longitude: -73.91430475272105 },
   },
   {
     name: "St. Mary's Park West",
     location: "St. Anns Avenue & East 147 Street",
     open_year_round: "Yes",
     borough: "Bronx",
-    latlng:{latitude: }
+    latlng: { latitude: 40.81291695756085, longitude: -73.91343059911308 },
   },
   {
     name: "St. Mary's Playground East Playground",
@@ -3750,28 +3694,28 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Bronx",
-    latlng:{latitude: }
+    latlng: { latitude: 40.81032721508819, longitude: -73.91045867518763 },
   },
   {
     name: "St. Nicholas Park",
     location: "West 133 Street & St. Nicholas Avenue",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.81567256158712, longitude: -73.94903521247832 },
   },
   {
     name: "St. Nicholas Park",
     location: "West 129 Street & St. Nicholas Terrace",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.81373145764891, longitude: -73.95095463208202 },
   },
   {
     name: "St. Nicholas Park (Arlington Edinboro Playground)",
     location: "West 140 Street & St. Nicholas Avenue",
     open_year_round: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.8208484661557, longitude: -73.94668928539713 },
   },
   {
     name: "St. Vartan Park",
@@ -3779,37 +3723,37 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.74495875755912, longitude: -73.97321168705682 },
   },
   {
-    name: "Stanley Isaacs",
+    name: "Stanley Isaacs Playground",
     location: "East 96-97 streets & FDR Drive",
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Manhattan",
-    latlng:{latitude: }
+    latlng: { latitude: 40.78277186875996, longitude: -73.9446329656384 },
   },
   {
-    name: "Stapleton Playground",
+    name: "Rev. Dr. Maggie Howard Playground",
     location: "Tompkins Avenue & Broad Street",
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Staten Island",
-    latlng:{latitude: }
+    latlng: { latitude: 40.62326198385814, longitude: -74.07950837543812 },
   },
   {
     name: "Star Spangled Banner Playground",
     location: "Franklin & Willoughby avenues",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.69211690799616, longitude: -73.95794494483957 },
   },
   {
     name: "Stars & Stripes Playground",
     location: "Baychester Avenue, Crawford Avenue",
     open_year_round: "Yes",
     borough: "Bronx",
-    latlng:{latitude: }
+    latlng: { latitude: 40.885322084287935, longitude: -73.84013952535821 },
   },
   {
     name: "Sternberg Park",
@@ -3817,60 +3761,63 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.706155130156844, longitude: -73.94729456175462 },
   },
   {
     name: "Stockton Playground",
     location: "Marcy & Park avenues",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.69714239525334, longitude: -73.94861990017787 },
   },
   {
     name: "Stroud Playground",
     location: "Classon Avenue & Sterling Place",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.6750396124559, longitude: -73.96215204444673 },
   },
   {
     name: "Sunset Park",
     location: "41 to 44 streets, 5 to 7 avenues",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.647844846500014, longitude: -74.00465766390232 },
   },
   {
     name: "Sunset Park (Recreation Center)",
     location: "41 to 44 streets, 5 to 7 avenues",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.64796535742874, longitude: -74.0037232903364 },
   },
   {
     name: "Surf Playground",
     location: "West 27 Street & Surf Avenue",
     open_year_round: "Yes",
     borough: "Brooklyn",
-    latlng:{latitude: }
+    latlng: { latitude: 40.573661270104, longitude: -73.99267656867654 },
   },
   {
     name: "Tall Oak Playground",
     location: "64 Avenue, 218 & 219 streets",
     open_year_round: "Yes",
     borough: "Queens",
+    latlng: { latitude: 40.74635562174648, longitude: -73.758280745536 },
   },
   {
     name: "Taylor Playground",
     location: "Guerlain Street, Thieriot Avenue, Taylor Avenue",
     open_year_round: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.83912620628985, longitude: -73.86596656127773 },
   },
   {
     name: "Tecumseh Playground",
     location: "West 77 Street & Amsterdam Avenue",
     open_year_round: "Yes",
     borough: "Manhattan",
+    latlng: { latitude: 40.781882746324705, longitude: -73.97872453327284 },
   },
   {
     name: "Terrace Playground",
@@ -3878,24 +3825,28 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Staten Island",
+    latlng: { latitude: 40.61354342693767, longitude: -74.09826999618159 },
   },
   {
     name: "The Pearly Gates",
     location: "Tratman Avenue, Street Peter's Avenue",
     open_year_round: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.83875483427276, longitude: -73.84552390614677 },
   },
   {
     name: "Thomas Jefferson Park",
     location: "1 Avenue to FDR Drive, East 111 to East 114 streets",
     open_year_round: "Yes",
     borough: "Manhattan",
+    latlng: { latitude: 40.79366353017927, longitude: -73.93681987378763 },
   },
   {
     name: "Tiffany Playground",
     location: "Tiffany Street, Fox Street, East 167 Street",
     open_year_round: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.8248202215705, longitude: -73.89436503420248 },
   },
   {
     name: "Tiger Playground",
@@ -3903,19 +3854,22 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Brooklyn",
+    latlng: { latitude: 40.688001302380954, longitude: -73.91120532010181 },
   },
   {
     name: "Tilden Playground",
     location: "Tilden Avenue, East 48 to East 49 streets",
     open_year_round: "Yes",
     borough: "Brooklyn",
+    latlng: { latitude: 40.64789551602084, longitude: -73.9313902953541 },
   },
   {
-    name: "Todt Hill Playground",
+    name: "Christopher J. Igneri Playground",
     location: "Schmidts Lane & Manor Road",
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Staten Island",
+    latlng: { latitude: 40.60870408462505, longitude: -74.119465334159 },
   },
   {
     name: "Tompkins Square Park",
@@ -3923,30 +3877,35 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Manhattan",
+    latlng: { latitude: 40.72691153578834, longitude: -73.98159619564005 },
   },
   {
     name: "Tremont Park Playground",
     location: "Corner of East 175 Street & Arthur Avenue",
     open_year_round: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.84615213021491, longitude: -73.89373222554988 },
   },
   {
     name: "Triborough Bridge Playground A",
     location: "Hoyt Avenue, 19 to 21 streets",
     open_year_round: "Yes",
     borough: "Queens",
+    latlng: { latitude: 40.775894218959216, longitude: -73.92531820784652 },
   },
   {
     name: "Triborough Bridge Playground B",
     location: "Hoyt Avenue, 21 to 23 streets",
     open_year_round: "No",
     borough: "Queens",
+    latlng: { latitude: 40.77452591794115, longitude: -73.92320589126795 },
   },
   {
     name: "Underhill Playground",
     location: "Underhill Avenue & Prospect Place",
     open_year_round: "Yes",
     borough: "Brooklyn",
+    latlng: { latitude: 40.67672034543877, longitude: -73.96575072525374 },
   },
   {
     name: "Underwood Park",
@@ -3954,30 +3913,35 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Brooklyn",
+    latlng: { latitude: 40.688570457180774, longitude: -73.96673596932904 },
   },
   {
     name: "Union Playground (PS 214)",
     location: "Union Street & 31 Road",
     open_year_round: "Yes",
     borough: "Queens",
+    latlng: { latitude: 40.770162114212866, longitude: -73.82705371785114 },
   },
   {
     name: "Union Square Park",
     location: "Broadway to 4 Avenue, East 14 Street to East 17 streets",
     open_year_round: "Yes",
     borough: "Manhattan",
+    latlng: { latitude: 40.736346749935706, longitude: -73.98958905848036 },
   },
   {
     name: "Van Cortlandt Park (Allen Shandler Recreation Area)",
     location: "Broadway, Jerome Avenue, City Line, Van Cortlandt Park South",
     open_year_round: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.889992156620146, longitude: -73.88132616229402 },
   },
   {
     name: "Van Cortlandt Park (Classic Playground)",
     location: "Van Cortlandt Park South and Gouverneur Avenue",
     open_year_round: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.88530448443072, longitude: -73.89055922881235 },
   },
   {
     name: "Van Cortlandt Park (Indian Field)",
@@ -3985,48 +3949,49 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.89594396000627, longitude: -73.87902770464528 },
   },
   {
     name: "Van Cortlandt Park (Nature Center)",
     location: "West 239 Street & Van Cortlandt East",
     open_year_round: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.89113677546609, longitude: -73.8939351630247 },
   },
   {
     name: "Van Cortlandt Park (Pool Building)",
     location: "West 242nd Street & Broadway",
     open_year_round: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.89060875012088, longitude: -73.89747243990692 },
   },
   {
     name: "Van Cortlandt Park (Stables Area)",
     location: "Broadway and West 254th Street",
     open_year_round: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.90090632835344, longitude: -73.89267391248018 },
   },
   {
     name: "Van Cortlandt Park (Stadium)",
     location: "Broadway, Jerome Avenue, City Line, Van Cortlandt Park South",
     open_year_round: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.88809352932289, longitude: -73.89819693724597 },
   },
   {
     name: "Van Cortlandt Park (UC Pool Headquarters)",
     location: "Broadway, Jerome Avenue, City Line, Van Cortlandt Park South",
     open_year_round: "Yes",
     borough: "Bronx",
-  },
-  {
-    name: "Van Cortlandt Park (UC Pool Men's Locker)",
-    location: "West 242nd Street & Broadway",
-    open_year_round: "Yes",
-    borough: "Bronx",
+    latlng: { latitude: 40.88993258338082, longitude: -73.89624512751357 },
   },
   {
     name: "Van Cortlandt Park (Woodlawn Playground)",
     location: "West 239 Street & Van Cortlandt East",
     open_year_round: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.88768992999518, longitude: -73.87705697129454 },
   },
   {
     name: "Van Voorhees Lower Park",
@@ -4034,6 +3999,7 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Brooklyn",
+    latlng: { latitude: 40.689675179486464, longitude: -73.99956364289132 },
   },
   {
     name: "Vesuvio Playground",
@@ -4041,6 +4007,7 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Manhattan",
+    latlng: { latitude: 40.72535712405873, longitude: -74.00260164266462 },
   },
   {
     name: "Vidalia Park",
@@ -4048,6 +4015,7 @@ const bathroomData = [
     open_year_round: "No",
     handicap_accessible: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.8440784759679, longitude: -73.881422084829 },
   },
   {
     name: "Vinmont Veteran Playground",
@@ -4056,6 +4024,7 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.902161217594134, longitude: -73.90488529430681 },
   },
   {
     name: "Virginia Playground",
@@ -4063,6 +4032,7 @@ const bathroomData = [
       "Virginia Avenue, McGraw Avenue, Cross Bronx Expressway, White Plains Road",
     open_year_round: "No",
     borough: "Bronx",
+    latlng: { latitude: 40.834313396761154, longitude: -73.86213118078183 },
   },
   {
     name: "Vleigh Place Playground",
@@ -4070,24 +4040,28 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Queens",
+    latlng: { latitude: 40.7186722963862, longitude: -73.82043263386772 },
   },
   {
     name: "Vleigh Playground (PS 165)",
     location: "70 Road to 71 Avenue",
     open_year_round: "Yes",
     borough: "Queens",
+    latlng: { latitude: 40.72984452589956, longitude: -73.8162399503229 },
   },
   {
     name: "Wagner Pool",
     location: "East 124 Street between 1 & 2 Avenues",
     open_year_round: "No",
     borough: "Manhattan",
+    latlng: { latitude: 40.80197394928761, longitude: -73.9330407244386 },
   },
   {
     name: "Wakefield Playground",
     location: "Matilda Avenue, East 239 Street, Carpenter Avenue",
     open_year_round: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.90184121804954, longitude: -73.85475094064556 },
   },
   {
     name: "Washington Hall Playground",
@@ -4095,70 +4069,63 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Brooklyn",
+    latlng: { latitude: 40.69543258227867, longitude: -73.96670501624274 },
   },
   {
     name: "Washington Square Park Western Half",
     location: "5 Avenue, Waverly Place, West 4 & MacDougal streets.",
     open_year_round: "Yes",
     borough: "Manhattan",
+    latlng: { latitude: 40.73072627315518, longitude: -73.99832340369964 },
   },
   {
     name: "Watson Gleason Playground",
     location: "Gleason Avenue, Rosedale Avenue, Watson Avenue, Nobel Avenue",
     open_year_round: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.829006707603284, longitude: -73.86909368132467 },
   },
   {
     name: "Wayanda Park",
     location: "Robard Lane & 217 Street",
     open_year_round: "Yes",
     borough: "Queens",
+    latlng: { latitude: 40.71085994194636, longitude: -73.73899175912523 },
   },
   {
     name: "Webster Playground",
     location: "E. 188 St. Bet. Webster Ave. And Park Ave.",
     handicap_accessible: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.85951143662579, longitude: -73.89296538541196 },
   },
   {
     name: "Weeping Beech Park",
     location: "37 Avenue & Bowne Street",
     open_year_round: "Yes",
     borough: "Queens",
-  },
-  {
-    name: "West 2nd Street Comfort Station",
-    location: "W. 2nd Street",
-    borough: "Brooklyn",
-  },
-  {
-    name: "West 59th Street Recreation Center & Pool",
-    location: "West 59 to West 60 streets, Amsterdam to West End avenues",
-    open_year_round: "Yes",
-    borough: "Manhattan",
-  },
-  {
-    name: "West 8nd Street CS",
-    location: "W 8 St.",
-    borough: "Brooklyn",
+    latlng: { latitude: 40.76339250966047, longitude: -73.8251960941604 },
   },
   {
     name: "Whitestone Playground (PS 193)",
     location: "12 Avenue & 153 Street",
     open_year_round: "Yes",
     borough: "Queens",
+    latlng: { latitude: 40.7918968981349, longitude: -73.80832975534739 },
   },
   {
     name: "William E. Kelly Memorial Park",
     location: "Avenue S, East 14 & East 15 streets",
     open_year_round: "Yes",
     borough: "Brooklyn",
+    latlng: { latitude: 40.60369754355293, longitude: -73.95758191295042 },
   },
   {
     name: "William Sheridan Playground",
     location: "Wythe Avenue, Berry & Grand streets",
     open_year_round: "Yes",
     borough: "Brooklyn",
+    latlng: { latitude: 40.7152507427782, longitude: -73.96400051339572 },
   },
   {
     name: "Williamsbridge Oval",
@@ -4166,48 +4133,56 @@ const bathroomData = [
       "Reservoir Oval East, Reservoir Oval West, Reservoir Place, Putnam Place, Bainbridge Avenue, Wayne Avenue, Tryon Avenue, Holt Place, Van Cortlandt Avenue",
     open_year_round: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.876648154338966, longitude: -73.87862487524778 },
   },
   {
     name: "Willis Playground",
     location: "East 139 Street, East 140 Street, Willis & Alexander avenues",
     open_year_round: "Yes",
     borough: "Bronx",
+    latlng: { latitude: 40.81134053218971, longitude: -73.92271274078406 },
   },
   {
     name: "Willoughby Playground",
     location: "Tompkins & Willoughby avenues",
     open_year_round: "Yes",
     borough: "Brooklyn",
+    latlng: { latitude: 40.69455870368752, longitude: -73.94701436656325 },
   },
   {
     name: "Willow Lake Playground (PS 196)",
     location: "Grand Central Parkway between 71 & 72 avenues",
     open_year_round: "Yes",
     borough: "Queens",
+    latlng: { latitude: 40.72284084274071, longitude: -73.83720069387918 },
   },
   {
     name: "Willowbrook Park",
     location: "Richmond Avenue To Victory Boulevard",
     open_year_round: "Yes",
     borough: "Staten Island",
+    latlng: { latitude: 40.60361662532012, longitude: -74.1582707743382 },
   },
   {
     name: "Wingate Park",
     location: "Brooklyn Avenue & Rutland Road",
     open_year_round: "Yes",
     borough: "Brooklyn",
+    latlng: { latitude: 40.659270983127065, longitude: -73.94461389160007 },
   },
   {
     name: "Woods Playground",
     location: "Bergen Street & Utica Avenue",
     open_year_round: "Yes",
     borough: "Brooklyn",
+    latlng: { latitude: 40.674817689876, longitude: -73.92924057674735 },
   },
   {
     name: "Woodtree Playground",
     location: "20 Avenue, 37 Street, 38 Street",
     open_year_round: "Yes",
     borough: "Queens",
+    latlng: { latitude: 40.77751639371446, longitude: -73.90254577185885 },
   },
   {
     name: "Yak Playground",
@@ -4215,12 +4190,14 @@ const bathroomData = [
     open_year_round: "Yes",
     handicap_accessible: "Yes",
     borough: "Brooklyn",
+    latlng: { latitude: 40.592475910882605, longitude: -73.93582745597892 },
   },
   {
     name: "Zimmerman Playground",
     location: "Britton Street, Barker Avenue, Olinville Avenue",
     open_year_round: "No",
     borough: "Bronx",
+    latlng: { latitude: 40.86610750830302, longitude: -73.86875007248364 },
   },
 ];
 
