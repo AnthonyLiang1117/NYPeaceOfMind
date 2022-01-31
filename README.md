@@ -4,7 +4,7 @@ Built to help you find that Peace of Mind 🚽
 [![NY Peace Of Mind](https://user-images.githubusercontent.com/86633971/151880450-3d641f77-cafc-4626-8009-e829bab459ab.png)](https://youtu.be/OUnV__W8Hyc "NY Peace of Mind")
 
 ## Future Plans
-  * Add markers for more public bathrooms (coffee shops, bookstores, resturants...)
+  * Add more diverse markers (coffee shops, bookstores, resturants...)
   * Favorites tab that save your favorite bathrooms you have been to
   * Utilize map navigation to figure out your distance from the selected marker
 
